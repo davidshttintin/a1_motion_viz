@@ -1,0 +1,6 @@
+<launch>
+        <param name="robot_description" command="cat $(find motion_viz)/urdf/a1.urdf" />
+        <node pkg="robot_state_publisher" name="robot_state_publisher" type="robot_state_publisher" />
+	<node type="rviz" name="rviz" pkg="rviz" args="-d $(find motion_viz)/rviz/config.rviz"/>
+        <node pkg="motion_viz" name="talker" type="publisher.py"/>
+</launch>
