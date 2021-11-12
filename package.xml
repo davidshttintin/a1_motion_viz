@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>motion_viz</name>
+  <name>a1_motion_viz</name>
   <version>0.0.0</version>
-  <description>The motion_viz package</description>
+  <description>The a1_motion_viz package</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag -->
   <!-- Example:  -->
